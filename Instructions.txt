@@ -1,0 +1,18 @@
+Get access token from Canvas
+
+    1. Log into Canvas
+    2. Go to Account > Settings
+    3. Find Approved Integrations
+    4. Click + New Access token
+    5. Name it, add expiration date and time
+    6. Copy the token - when you close the window you won't be able to see it again
+
+
+Install Canvas API to your preferred Python kernel in git bash
+    pip install canvasapi
+
+
+If you don't already have Jupyter installed, install it, too, again git bash
+    pip install jupyter
+
+Follow instructions in main.ipynb to add your API key, url, course ID, etc. when needed
